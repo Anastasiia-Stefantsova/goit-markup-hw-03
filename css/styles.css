@@ -3,6 +3,33 @@ body {
     font-size: 16px;
     color: #434455;
     background-color: #FFF;
+    
+}
+
+p,
+h1,
+h2,
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+
+    ul {
+        list-style: none;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+}
+
+.container{
+    width: 100%;
+    min-width: 1158px;
 }
 
 .link {
@@ -28,14 +55,14 @@ body {
 }
 
 .nav-link {
-    color:#2E2F42;
+    color: #2E2F42;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
-.nav-link:focus{
+.nav-link:focus {
     color: #404BBF;
 }
 
@@ -55,21 +82,32 @@ body {
 }
 
 .heder-address-link:hover,
-.heder-address-link:focus{
+.heder-address-link:focus {
     color: #404bbf;
 }
 
 .hero {
     background-color: #2E2F42;
+    width: 1440px;
+        height: 600px;
+        flex-shrink: 0;
+}
+
+.hero-container {
+     
 }
 
 .hero-title {
-    color:#FFF;
+    color: #FFF;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    padding-top: 188px;
+    padding-right: 472px;
+    padding-bottom: 292px;
+    padding-left: 472px;
 }
 
 .hero-btn {
@@ -83,12 +121,12 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-    color:#FFF;
-    background-color:#404BBF;
+    color: #FFF;
+    background-color: #404BBF;
 }
 
 .feature {
-    color:#2E2F42;
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -107,7 +145,7 @@ body {
 }
 
 .team-title {
-    color:#2E2F42;
+    color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -121,7 +159,7 @@ body {
 }
 
 .name {
-    color:#2E2F42;
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -134,7 +172,7 @@ body {
 }
 
 .footer-logo {
-    color:#4D5AE5;
+    color: #4D5AE5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -148,7 +186,7 @@ body {
 }
 
 .footer-logo-part {
-    color:#F4F4FD;
+    color: #F4F4FD;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
@@ -157,9 +195,9 @@ body {
 }
 
 .footer-text {
-    color:#F4F4FD;
+    color: #F4F4FD;
     line-height: 1.5;
-    letter-spacing: 0.02em;   
+    letter-spacing: 0.02em;
 }
 
 .portfolio {
@@ -167,7 +205,7 @@ body {
 }
 
 .portfolio-title {
-    color:#2E2F42;
+    color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.1;
@@ -177,13 +215,14 @@ body {
 }
 
 .portfolio-item {
-    color:#2E2F42;
+    color: #2E2F42;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+
 .portfolio-text {
     font-size: 16px;
     font-weight: 400;
