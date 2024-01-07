@@ -374,9 +374,7 @@ img {
     border-top: none;
     margin-bottom: 8px;
     width: 1440px;
-    /* flex-shrink: 0; */
-    /* padding-top: 120px;
-    padding-bottom: 120px; */
+  
 
 
 }
@@ -398,8 +396,7 @@ img {
     align-items: center;
     column-gap: 24px;
     row-gap: 48px;
-    margin-right: 156px;
-    margin-left: 156px;
+
 }
 .portfolio-item-list {
     border: 1px solid #e7e9fc;
